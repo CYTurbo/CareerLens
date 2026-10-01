@@ -1,0 +1,12 @@
+careerlens.duckdb
+*.duckdb
+.venv/
+venv/
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+.DS_Store
+data/
+data1/
+*.ipynb
+raw_jobs_test.json
