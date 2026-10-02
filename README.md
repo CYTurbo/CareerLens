@@ -3,6 +3,8 @@
 ## Indian Job Market Intelligence & Skill-Gap Analyzer
 
 > **Explore the job market. Understand the demand. Discover your next career move.**
+>
+> ![CareerLens Overview](careerlens-overview.png)
 
 CareerLens is an end-to-end data analytics product built to analyze the Indian job market using real job-posting data.
 
