@@ -6,6 +6,11 @@
 
 ![CareerLens Overview](careerlens-overview.png)
 
+## 🔗 Live Project
+
+🌐 **Live App:** https://careerleens.streamlit.app/  
+💻 **GitHub Repository:** https://github.com/CYTurbo/CareerLens
+
 CareerLens is an end-to-end data analytics project that analyzes **97,679 Indian job postings** to understand job demand, skills, salaries, experience requirements, locations, companies, and work arrangements.
 
 The project combines **Python, Pandas, SQL, DuckDB, Power BI, and Streamlit** to transform raw job-market data into interactive market intelligence and a personalized skill-gap analysis.
