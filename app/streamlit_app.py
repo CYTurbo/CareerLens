@@ -1,6 +1,7 @@
 import duckdb
 import streamlit as st
 import pandas as pd
+import textwrap
 
 
 # ============================================================
@@ -378,8 +379,6 @@ if skill_search.strip():
         )
     ]["skill_name"].tolist()
 
-    # Prevent the dropdown from becoming too large
-
     matching_skills = matching_skills[:100]
 
 else:
@@ -632,7 +631,7 @@ for _, row in market_skills_df.iterrows():
 
     if is_user_skill:
 
-        st.markdown(
+        green_bar = textwrap.dedent(
             f"""
             <div style="
                 background-color: #e6e6e6;
@@ -642,16 +641,18 @@ for _, row in market_skills_df.iterrows():
                 margin-top: 4px;
                 margin-bottom: 4px;
             ">
-
                 <div style="
                     background-color: #22c55e;
                     width: {min(share, 100)}%;
                     height: 10px;
                     border-radius: 10px;
                 "></div>
-
             </div>
-            """,
+            """
+        )
+
+        st.markdown(
+            green_bar,
             unsafe_allow_html=True
         )
 
